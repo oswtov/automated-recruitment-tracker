@@ -21,7 +21,7 @@ Destino final de la información procesada, diseñado para garantizar la integri
 * **Logística Centralizada:** Las columnas de Fecha y Horario ofrecen una vista panorámica, eliminando la revisión de calendarios externos.
 * **UX y Toma de Decisiones:** Aplicación de Formato Condicional (mapa de calor) en Score y Ranking para resaltar instantáneamente a los candidatos "Aptos" o sobresalientes.
 
-<img width="1807" height="890" alt="Captura de pantalla 2026-03-30 003106" src="https://github.com/user-attachments/assets/7afd5136-1ca1-42e3-89dc-28ec0c72b9fe" />
+<img width="1817" height="891" alt="Captura de pantalla 2026-03-30 003048" src="https://github.com/user-attachments/assets/472a22c0-1574-4df6-b95e-4f9095a6f758" />
 
 
 ### 2. Front-End Interactiva: "EVALUACION APLICANTES"
@@ -32,16 +32,28 @@ Interfaz segura que permite a los evaluadores cargar datos ágilmente sin altera
   * **Botón LIMPIAR:** Rutina que borra el formulario tras un envío exitoso para evaluar al siguiente candidato rápidamente.
 * **Veredicto en Tiempo Real:** Fórmulas que calculan la puntuación total y determinan automáticamente si el aspirante aprobó o no.
 
+
+<img width="1807" height="890" alt="Captura de pantalla 2026-03-30 003106" src="https://github.com/user-attachments/assets/7c19872b-c585-4b19-9df0-ebb879da7e33" />
+
+
 ### 3. El Motor de Datos: "BBDD"
 * Repositorio central donde se almacena históricamente la información.
 * **Almacenamiento y Trazabilidad:** El script inyecta cada evaluación con un *timestamp* para garantizar la auditoría del proceso.
 * **Ciclo de Información:** Alimenta dinámicamente al Panel Maestro, consolidando los resultados de múltiples evaluadores.
+
+
+<img width="1814" height="903" alt="Captura de pantalla 2026-03-30 003125" src="https://github.com/user-attachments/assets/9ebe6d15-961b-4267-a766-bc2851a3b732" />
+
 
 ### 4. Cimientos del Sistema: "REFERENCIA"
 * Tabla maestra y fuente única de validación que garantiza la integridad absoluta del ecosistema.
 * **Normalización:** Centraliza los roles a evaluar, los nombres exactos de los comités y las descripciones de las puntuaciones.
 * **Garantía de Calidad:** Base exclusiva para todas las listas desplegables, eliminando inconsistencias en toda la base de datos.
 * **Motor Dinámico:** Es el origen de los datos que la función `QUERY` consulta para cargar los criterios correctos en el formulario de evaluación.
+
+
+<img width="1827" height="904" alt="Captura de pantalla 2026-03-30 003031" src="https://github.com/user-attachments/assets/614695f2-b11e-4d23-954b-ce7ad45ded39" />
+
 
 ## 🚀 Impacto del Proyecto
 * **Optimización del tiempo:** El desarrollo de esta herramienta ahorró más de 4 horas de trabajo al comité.
