@@ -1,11 +1,13 @@
 # ⚙️ Sistema Automizado de Reclutamiento y Evaluación (Google Sheets)
 
-**[🔗Link del archivo]: https://docs.google.com/spreadsheets/d/1f96wzWU4gskg_nVeyY9q57wE4geBfg_S5ssoxDGDz_Y/edit?gid=1155237229#gid=1155237229 **
+**[🔗Link del archivo]: https://docs.google.com/spreadsheets/d/1y6wtw1OYvEmmYOoriXsmQHJRBilajaID0OsKXfgp2ME/edit?gid=1155237229#gid=1155237229 **
 
 ## 📌 Contexto y Problema de Negocio
 El comité de Recursos Humanos de la ONG Espacio Educa gestionaba el reclutamiento de forma manual y fragmentada. El flujo de trabajo requería que cada evaluador utilizara una plantilla de Excel independiente por cada aspirante. Al finalizar las jornadas, el comité recibía múltiples archivos individuales, por ejemplo, 20 archivos Excel distintos para 20 aspirantes. 
 
 Posteriormente, un responsable de RR.HH. debía consolidar manualmente toda la información para comparar perfiles y tomar decisiones. Esta metodología generaba cuellos de botella, pérdida de trazabilidad y una alta probabilidad de errores en la transcripción de los datos.
+
+**Fórmulas principales:** QUERY, APPSCRIPT, Validación de datos, BUSCARV, SI.ERROR
 
 ## 💡 Solución Implementada
 Desarrollé una herramienta automatizada en Google Sheets que centraliza el flujo de datos en un solo origen de verdad. La solución eliminó la dispersión de archivos, permitiendo que múltiples evaluadores alimenten una única base de datos. Además, se implementaron funciones para que el comité de RR.HH. visualice los resultados en tiempo real sin necesidad de consolidación manual. El sistema es altamente escalable, diseñado para procesar grandes volúmenes de voluntarios de manera simultánea y optimizar el tiempo de respuesta.
