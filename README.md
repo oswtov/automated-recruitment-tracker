@@ -21,6 +21,9 @@ Destino final de la información procesada, diseñado para garantizar la integri
 * **Logística Centralizada:** Las columnas de Fecha y Horario ofrecen una vista panorámica, eliminando la revisión de calendarios externos.
 * **UX y Toma de Decisiones:** Aplicación de Formato Condicional (mapa de calor) en Score y Ranking para resaltar instantáneamente a los candidatos "Aptos" o sobresalientes.
 
+<img width="1807" height="890" alt="Captura de pantalla 2026-03-30 003106" src="https://github.com/user-attachments/assets/7afd5136-1ca1-42e3-89dc-28ec0c72b9fe" />
+
+
 ### 2. Front-End Interactiva: "EVALUACION APLICANTES"
 Interfaz segura que permite a los evaluadores cargar datos ágilmente sin alterar la base de datos principal.
 * **Carga Inteligente de Perfiles:** Uso de `QUERY` vinculado a `IMPORTRANGE` para extraer en tiempo real las competencias a evaluar desde la hoja "REFERENCIA", adaptando el formulario al cargo de forma instantánea.
