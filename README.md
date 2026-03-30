@@ -1,6 +1,7 @@
 # ⚙️ Sistema Automizado de Reclutamiento y Evaluación (Google Sheets)
 
 **[🔗Link del archivo]: https://docs.google.com/spreadsheets/d/1y6wtw1OYvEmmYOoriXsmQHJRBilajaID0OsKXfgp2ME/edit?gid=1155237229#gid=1155237229 **
+
 PD: Se recomienda hacer una copia y dar permisos para ejecutar APPSCRIPT
 
 ## 📌 Contexto y Problema de Negocio
