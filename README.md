@@ -1,6 +1,7 @@
 # ⚙️ Sistema Automizado de Reclutamiento y Evaluación (Google Sheets)
 
 **[🔗Link del archivo]: https://docs.google.com/spreadsheets/d/1y6wtw1OYvEmmYOoriXsmQHJRBilajaID0OsKXfgp2ME/edit?gid=1155237229#gid=1155237229 **
+PD: Se recomienda hacer una copia y dar permisos para ejecutar APPSCRIPT
 
 ## 📌 Contexto y Problema de Negocio
 El comité de Recursos Humanos de la ONG Espacio Educa gestionaba el reclutamiento de forma manual y fragmentada. El flujo de trabajo requería que cada evaluador utilizara una plantilla de Excel independiente por cada aspirante. Al finalizar las jornadas, el comité recibía múltiples archivos individuales, por ejemplo, 20 archivos Excel distintos para 20 aspirantes. 
